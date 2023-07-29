@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.version1.badroomAdmin.ui.Dashboard.DashboardFragment"
+        android:label="የአልጋ ዝርዝር"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_PackageFragment_to_DetailTravelPackageFragment"
+            app:destination="@id/nav_details" />
+    </fragment>
+
+    <fragment
+
+        android:id="@+id/nav_details"
+        android:name="com.version1.badroomAdmin.ui.detail.DetailFragment"
+        android:label="@string/bedlist"
+        tools:layout="@layout/fragment_detail" />
+    <fragment
+        android:id="@+id/nav_report"
+        android:name="com.version1.badroomAdmin.ui.report.ReportFragment"
+        android:label="@string/report"
+        tools:layout="@layout/fragment_report"/>
+
+    <fragment
+        android:id="@+id/nav_createuser"
+        android:name="com.version1.badroomAdmin.ui.account.CreateAccountFragment"
+        android:label="@string/create_new_account"
+        tools:layout="@layout/fragment_create_account"/>
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.version1.badroomAdmin.ui.setting.SettingFragment"
+        android:label="@string/action_setting"
+        tools:layout="@layout/fragment_setting"/>
+
+</navigation>

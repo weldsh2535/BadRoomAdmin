@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">አየለ ወንድሙ ሆቴል</string>
+    <string name="app_names">እንኳን ወደ አየለ ወንድሙ ሆቴል በደህና መጡ</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">መውጣት</string>
+    <string name="action_setting">ማስተካከያ</string>
+
+    <string name="menu_home">አዲስ መዝገባ</string>
+    <string name="menu_gallery">Dashboard</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">ይቀጥሉ</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="phone_number">ስልክ ቁጥር :</string>
+    <string name="name">ስም : </string>
+    <string name="room_number">የአልጋ ቁጥር :</string>
+    <string name="kebele">ቀበሌ :</string>
+    <string name="roomnumber">የአልጋ ቁጥር </string>
+    <string name="registerDate">አልጋ የተያዘበት ቀን :</string>
+    <string name="exitDate">አልጋ የተለቀቀበት ቀን : </string>
+
+    <string name="selected_room_number">"የተመረጠው አልጋ ቁጥር ፡  "</string>
+    <string name="bedlist">የአልጋ ዝርዝር</string>
+    <string name="addnew">አዲስ መዝገባ</string>
+    <string name="create_new_account">አዲስ አካውንት ክፈት</string>
+    <string name="footer_copyright">\@2023 አየለ ወንድሙ ሆቴል. ሙሉ መብት የተጠበቀ ነው 1.0.0 </string>
+    <string name="search">ፈልግ</string>
+    <string name="create">አዲስ አካውንት ክፈት</string>
+    <string name="username">መለያ ስም ያስገቡ</string>
+    <string name="email">ኢሚል አድራሻ</string>
+    <string name="phonenumber">ስልክ ቁጥር</string>
+    <string name="register">መዝግብ</string>
+    <string name="roomprice">የመኝታ አልጋ ዋጋ</string>
+    <string name="report">ሪፓርት</string>
+</resources>
